@@ -1,241 +1,140 @@
 import {
-  ClevertechLogo,
-  ConsultlyLogo,
-  JojoMobileLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
+  Accops
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Saurabh Batham",
+  initials: "SB",
+  location: "Kannauj, Uttar Pradesh, India",
+  locationLink: "https://www.google.com/maps/place/Kannauj",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Backend Developer with a strong foundation in .NET technologies and cloud services, passionate about building scalable and high-quality solutions.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      Dedicated software engineer with over a year of experience in fast-paced
+      startup environments. Specialized in developing backend services using .NET
+      technologies, cloud platforms, and databases. Proven ability to deliver
+      clean, scalable, and efficient solutions while contributing to high-impact
+      projects such as Jio Desktop-as-a-Service (DaaS). Committed to professional
+      growth and continuous learning in back-end development.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "", // Add your avatar URL here
+  personalWebsiteUrl: "", // Add your personal website URL here, if available
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "saurabhbatham17@gmail.com",
+    tel: "+91-8418816899",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/b17saurabh", // Update if needed
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/b17saurabh", // Updated LinkedIn profile
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Abdul Kalam Technical University (AKTU)",
+      degree: "Bachelor of Technology in Computer Science and Engineering",
+      start: "2018",
+      end: "2022",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
+      company: "Tensech Solution Private Limited",
+      link: "https://tensech.com", // Add company website if available
+      badges: [".NET", "Python", "Google Cloud Platform", "FastAPI", "Elasticsearch"],
+      title: "Backend Developer",
+      logo: Accops, // Add the company logo if available
+      start: "Dec 2022",
+      end: "Present",
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Developed and maintained scalable backend services using .NET and
+          Python FastAPI.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Contributed to the Jio Desktop-as-a-Service (DaaS) project with
+              Accops Systems, focusing on high-quality and scalable backend
+              solutions.
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+              Led the development of Google Cloud Platform (GCP) connector and
+              backend services for enhanced DaaS offerings.
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+              Spearheaded the Accops Reporting Server project, improving data
+              retrieval speeds by 43% through Elasticsearch optimization.
+            </li>
+            <li>
+              Conducted comprehensive unit testing to ensure robustness and high
+              code quality.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "Tensech Solution Private Limited",
+      link: "https://tensech.com", // Add company website if available
+      badges: [".NET", "C#", "SQL", "Cloud Services"],
+      title: "Software Trainee",
+      logo: Accops, // Add the company logo if available
+      start: "Aug 2022",
+      end: "Nov 2022",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Completed intensive training in backend development using the .NET
+          stack.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+              Gained expertise in .NET stack technologies and programming in C#.
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+              Contributed to client projects and received acknowledgment for
+              meeting training milestones ahead of schedule.
             </li>
           </ul>
         </>
       ),
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "C#",
+    ".NET Framework",
+    ".NET Core",
+    "Python",
+    "FastAPI",
+    "SQL",
+    "NoSQL",
+    "ELK Stack",
+    "Cloud Services",
+    "Docker",
+    "Git",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "Jio DaaS - Accops Reporting Server",
+      techStack: [".NET", "Elasticsearch", "Apex Charts", "FastAPI", "SQL"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
+        "Developed APIs to improve data retrieval speed by 43% using Elasticsearch. Enhanced data visualization with Apex Charts and ensured seamless integration through thorough unit testing.",
+      logo: Accops, // Add project logo if available
+      link: "https://www.accops.com/cloud-services/accops-daas", // Add project link if available
     },
     {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
+      title: "GCP Connector for DaaS",
+      techStack: [".NET Core", "Google Cloud Platform", "REST APIs"],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      logo: MonitoLogo,
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
-      },
+        "Created a Google Cloud Platform connector to manage virtual compute resources, improving efficiency in cloud service integration.",
+      logo: Accops, // Add project logo if available
+      link: "https://www.accops.com/cloud-services/accops-daas", // Add project link if available
     },
   ],
 } as const;
