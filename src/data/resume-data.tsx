@@ -12,11 +12,11 @@ export const RESUME_DATA = {
     "Backend Developer with a strong foundation in .NET technologies and cloud services, passionate about building scalable and high-quality solutions.",
   summary: (
     <>
-      Dedicated software engineer with over a year of experience in fast-paced
+      Dedicated software engineer with more than 2 years of experience in fast-paced
       startup environments. Specialized in developing backend services using .NET
       technologies, cloud platforms, and databases. Proven ability to deliver
       clean, scalable, and efficient solutions while contributing to high-impact
-      projects such as Jio Desktop-as-a-Service (DaaS). Committed to professional
+      projects such as Desktop-as-a-Service (DaaS). Committed to professional
       growth and continuous learning in back-end development.
     </>
   ),
@@ -61,7 +61,7 @@ export const RESUME_DATA = {
           Python FastAPI.
           <ul className="list-inside list-disc">
             <li>
-              Contributed to the Jio Desktop-as-a-Service (DaaS) project with
+              Contributed to the Accops Desktop-as-a-Service (DaaS) project with
               Accops Systems, focusing on high-quality and scalable backend
               solutions.
             </li>
