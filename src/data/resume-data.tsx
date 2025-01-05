@@ -83,10 +83,10 @@ export const RESUME_DATA = {
     },
     {
       company: "Tensech Solution Private Limited",
-      link: "https://tensech.com", // Add company website if available
+      link: "https://tensech.com", 
       badges: [".NET", "C#", "SQL", "Cloud Services"],
       title: "Software Trainee",
-      logo: Accops, // Add the company logo if available
+      logo: Accops, 
       start: "Aug 2022",
       end: "Nov 2022",
       description: (
@@ -125,16 +125,32 @@ export const RESUME_DATA = {
       techStack: [".NET", "Elasticsearch", "Apex Charts", "FastAPI", "SQL"],
       description:
         "Developed APIs to improve data retrieval speed by 43% using Elasticsearch. Enhanced data visualization with Apex Charts and ensured seamless integration through thorough unit testing.",
-      logo: Accops, // Add project logo if available
-      link: "https://www.accops.com/cloud-services/accops-daas", // Add project link if available
+      logo: Accops, 
+      link: "https://www.accops.com/cloud-services/accops-daas", 
     },
     {
       title: "GCP Connector for DaaS",
       techStack: [".NET Core", "Google Cloud Platform", "REST APIs"],
       description:
         "Created a Google Cloud Platform connector to manage virtual compute resources, improving efficiency in cloud service integration.",
-      logo: Accops, // Add project logo if available
-      link: "https://www.accops.com/cloud-services/accops-daas", // Add project link if available
+      logo: Accops, 
+      link: "https://www.accops.com/cloud-services/accops-daas", 
     },
+    {
+      title: "EnrichMe.ai - AI Hiring Platform",
+      techStack: ["NodeJS", "Docker", "REST APIs", "Sandbox Environment"],
+      description:
+        "Built a coding test platform that executes tests in a secure sandbox environment. Designed an AI-driven scoring system to evaluate candidates based on question difficulty and test case weightage, enhancing the hiring process.",
+      logo: Accops, 
+      link: "https://www.enrichme.ai", 
+    },
+    {
+      title: "Accops UAM - User Access Management",
+      techStack: [".NET Core", "Microsoft Entra ID", "OpenLDAP", "REST APIs"],
+      description:
+        "Developed a user access management service to streamline access to web applications and services. Integrated with identity providers like OpenLDAP and Microsoft Entra ID, and ensured compatibility with Accops HySecure.",
+      logo: Accops, 
+      link: "https://www.accops.com/identity-access-management", 
+    }
   ],
 } as const;
