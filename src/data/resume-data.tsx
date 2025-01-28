@@ -6,8 +6,8 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Saurabh Batham",
   initials: "SB",
-  location: "Kannauj, Uttar Pradesh, India",
-  locationLink: "https://www.google.com/maps/place/Kannauj",
+  location: "Noida, Uttar Pradesh, India",
+  locationLink: "https://www.google.com/maps/place/Noida",
   about:
     "Backend Developer with a strong foundation in .NET technologies and cloud services, passionate about building scalable and high-quality solutions.",
   summary: (
